@@ -1,0 +1,32 @@
+<div id="navbar">
+  <div id="navbar-inner">
+    <div id="left">
+      <div id="about" class="navbar-option">
+        <%= link_to about_index_path do %>
+          <img src="/assets/about.png"/>
+        <% end %>
+        </a>
+      </div>
+      <div id="resume" class="navbar-option">
+        <%= link_to resume_index_path do %>
+          <img src="/assets/resume.png"/>
+        <% end %>
+      </div>
+    </div>
+    <div id="logo">
+      <%= link_to root_path do %>
+        <img src="/assets/logo.png"/>
+      <% end %>
+    </div>
+    <div id="right">
+      <div id="projects" class="navbar-option">
+        <img src="/assets/projects.png"/>
+      </div>
+      <div id="web" class="navbar-option">
+        <%= link_to web_index_path do %>
+          <img src="/assets/web.png"/>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>
