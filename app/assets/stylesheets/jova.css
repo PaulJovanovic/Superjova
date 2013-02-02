@@ -15,6 +15,10 @@ body {
     background-color: #eee;
 }
 
+img {
+    border: none;
+}
+
 
 /* Padding and Margins */
 
@@ -49,7 +53,7 @@ padding: 20px;
 /* Container */
 
 #container {
-    width:1060px;
+    width:1024px;
     height: 100%;
     margin: auto;
     position: relative;
@@ -71,17 +75,27 @@ padding: 20px;
     position: fixed;
     top:-200px;
     height:174px;
-    width: 1060px;
-    background-image: url("/assets/navbar.png");
+    width: 1024px;
+    margin: auto;
+    background-position: center top;
     background-repeat: no-repeat;
     z-index: 1000;
 }
 
+#navbar-img {
+    position:absolute;
+    left:-18px;
+    width:1060px;
+    z-index: 1000;
+}
+
 #navbar #navbar-inner {
+    position: relative;
     width:1024px;
     margin-left: 18px;
     margin-right:18px;
     height:144px;
+    z-index: 10001;
 }
 
 #navbar #navbar-inner #left, #navbar #navbar-inner #right {
@@ -133,11 +147,12 @@ padding: 20px;
     font-size: 24px;
     line-height: 40px;
     font-weight: bold;
-    border-bottom: solid 1px #999;
+    border-bottom: solid 1px #ddd;
 }
 
 #content-main .post-subheader {
     font-size: 20px;
+    color: #444;
 }
 
 #content-side {
@@ -149,11 +164,23 @@ padding: 20px;
 #content-side .header {
     border: solid 1px #000;
     border-top: solid 1px #888;
-    background-color: #282828;
     padding:10px;
     padding-bottom: 4px;
     padding-top: 4px;
     color: #ffffff;
+    background-image: linear-gradient(top, rgb(51,51,51) 0%, rgb(34,34,34) 100%);
+    background-image: -o-linear-gradient(top, rgb(51,51,51) 0%, rgb(34,34,34) 100%);
+    background-image: -moz-linear-gradient(top, rgb(51,51,51) 0%, rgb(34,34,34) 100%);
+    background-image: -webkit-linear-gradient(top, rgb(51,51,51) 0%, rgb(34,34,34) 100%);
+    background-image: -ms-linear-gradient(top, rgb(51,51,51) 0%, rgb(34,34,34) 100%);
+
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0, rgb(51,51,51)),
+        color-stop(1, rgb(34,34,34))
+    );
 }
 
 #content-side .article {
