@@ -13,6 +13,12 @@ jQuery(document).ready(function() {
 		jQuery("#transmission-end").hide();
 		jQuery("#image-transmission").animate({top: "-400px"}, "slow");
 	});
+
+	jQuery("body").click(function() {
+		if (jQuery("#transmission-end").is(":visible")){
+			jQuery("#transmission-end").click();
+		}
+	});
 });
 
 function Dimensions(x, y) {
