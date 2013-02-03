@@ -139,7 +139,7 @@ padding: 20px;
 }
 
 #content-main {
-    width: 604px;
+    width: 603px;
     float: left;
 }
 
@@ -148,15 +148,19 @@ padding: 20px;
     line-height: 40px;
     font-weight: bold;
     border-bottom: solid 1px #ddd;
+    clear: left;
 }
 
 #content-main .post-subheader {
     font-size: 20px;
     color: #444;
+    text-align: right;
+    font-style: italic;
+    margin-bottom: 20px;
 }
 
 #content-side {
-    width: 270px;
+    width: 271px;
     margin-left: 10px;
     float: left;
 }
@@ -168,20 +172,7 @@ padding: 20px;
     padding-bottom: 4px;
     padding-top: 4px;
     color: #ffffff;
-    background-color: #111111;
-    background-image: linear-gradient(top, rgb(41,41,41) 0%, rgb(8,8,8) 100%);
-    background-image: -o-linear-gradient(top, rgb(41,41,41) 0%, rgb(8,8,8) 100%);
-    background-image: -moz-linear-gradient(top, rgb(41,41,41) 0%, rgb(8,8,8) 100%);
-    background-image: -webkit-linear-gradient(top, rgb(41,41,41) 0%, rgb(8,8,8) 100%);
-    background-image: -ms-linear-gradient(top, rgb(41,41,41) 0%, rgb(8,8,8) 100%);
-
-    background-image: -webkit-gradient(
-        linear,
-        left top,
-        left bottom,
-        color-stop(0, rgb(41,41,41)),
-        color-stop(1, rgb(8,8,8))
-    );
+    background-color: #1a1a1a;
 }
 
 #content-side .article {
@@ -260,6 +251,12 @@ padding: 20px;
     font-size: 20px;
 }
 
+#content-main .dividing-header {
+    clear:both;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 #content-main .section {
     text-align: left;
     padding-top: 20px;
@@ -276,7 +273,7 @@ padding: 20px;
 
 #content-main .section .section-title {
     font-weight: bold;
-    width: 140px;
+    width: 139px;
     float:left;
     text-align: left;
     padding-right: 20px;
@@ -338,10 +335,28 @@ a, a:visited {
     text-decoration: none;
 }
 
+.btn {
+    color: #ffffff;
+    background-color: #1C1D3B;
+    padding:10px;
+    padding-right:20px;
+    padding-left: 20px;
+    border: solid 1px #000;
+    border-top: solid 1px #aaaaaa;
+    margin: auto;
+    width: auto;
+}
+
 .photo {
     padding-bottom: 0px;
-    background-color: #222;
+    background-color: #1a1a1a;
     position: relative;
+}
+
+.photo.pull {
+    float: left;
+    width:50%;
+    margin-right: 20px;
 }
 
 .photo img {
@@ -349,7 +364,7 @@ a, a:visited {
 }
 
 .photo .caption {
-    background-color: rgba(0,0,0, .3);
+    background-color: rgba(0,0,0, .5);
     color: #fff;
     height: 40px;
     text-align: center;
