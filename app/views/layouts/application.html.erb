@@ -2,13 +2,21 @@
 <html>
 <head>
   <title>SUPERJOVA</title>
-  <%= stylesheet_link_tag 'application', :media => "all" %>
-  <%= javascript_include_tag 'application' %>
+  <%= stylesheet_link_tag "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 	<div id="container">
 	    <%= render :partial => "shared/navbar" %>
+	    <div id="image-transmission">
+		    <div id="transmission-inner">
+		      <div class="pam">
+		      	<img id="image-transmission-image"/>
+		      </div>
+		    </div>
+		  </div>
+		  <div id="transmission-end">END TRANSMISSION</div>
 	    <div id="content" class="shadow">
 	    	<div class="pal">
 	   			<%= yield %>
