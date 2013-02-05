@@ -20,7 +20,9 @@
     </div>
     <div id="right">
       <div id="projects" class="navbar-option">
-        <img src="/assets/projects.png"/>
+        <%= link_to project_index_path do %>
+          <img src="/assets/projects.png"/>
+        <% end %>
       </div>
       <div id="web" class="navbar-option">
         <%= link_to web_index_path do %>

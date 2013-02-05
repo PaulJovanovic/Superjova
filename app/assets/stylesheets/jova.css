@@ -326,6 +326,10 @@ padding: 20px;
     float:left;
 }
 
+.picture-list img:hover{
+    cursor: pointer;
+}
+
 #image-transmission {
     position: fixed;
     top:-400px;
@@ -334,7 +338,7 @@ padding: 20px;
 }
 
 #image-transmission #transmission-inner {
-    padding-top: 48px;
+    padding-top: 58px;
     position: relative;
     width: 964px;
     background-color: #1a1a1a;
@@ -450,4 +454,72 @@ a, a:visited {
 
 .clear {
     clear: both;
+}
+
+.superstar {
+    padding: 10px;
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+
+.superstar img{
+    width: 100%;
+}
+
+#superstars {
+    width:580px;
+    margin: auto;
+    font-size: 48px;
+    color: #1a1a1a;
+    border-bottom: solid 1px #aaa;
+    padding:10px;
+    margin-bottom: 5px;
+}
+
+#superstars #stars {
+    width: 100%;
+    height: 100px;
+}
+
+#superstars .superquote {
+    width:40px;
+    height: 100px;
+    float: left;
+}
+
+#superstars .superquote img{
+    width:100%;
+}
+
+#critic {
+    width: 560px;
+    text-align: right;
+    font-size: 32px;
+    font-style: italic;
+    color: #ccc;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#find-out {
+    width: 368px;
+    margin:auto;
+}
+
+.button-black {
+    padding: 10px;
+    font-size: 18px;
+    border: solid 4px #bbb;
+    background-color: #181818;
+    color: #fff;
+    text-align: center;
+}
+
+.button-black:active {
+    background-color: #000;
+}
+
+.button-black a {
+    color: #fff;
 }
