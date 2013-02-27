@@ -342,7 +342,7 @@ padding: 20px;
 #image-transmission {
     position: fixed;
     top:-400px;
-    width:1024px;
+    width:966px;
     z-index: 999;
 }
 
