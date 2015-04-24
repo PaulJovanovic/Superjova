@@ -1,0 +1,449 @@
+// Should be used to modify the default spacing between objects (not between nodes of * the same object)
+// n = negative
+// p,m = padding,margin
+// a,t,r,b,l,h,v = all,top,right,bottom,left,horizontal,vertical
+// xs,s,m,l,n = extra-small($space-x-small),small($space-small),medium($space-medium),large($space-large),none(0px)
+
+.nmbm {
+  margin-bottom: -20px;
+}
+
+.maa {
+  margin: auto;
+}
+.mha {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ptn, .pvn, .pan {
+  padding-top: 0
+}
+.ptxxxxs, .pvxxxxs, .paxxxxs, .ptxxxxs-plus + .ptxxxxs-plus {
+  padding-top: $space-xxxx-small
+}
+.ptxxxs, .pvxxxs, .paxxxs, .ptxxxs-plus + .ptxxxs-plus {
+  padding-top: $space-xxx-small
+}
+.ptxxs, .pvxxs, .paxxs, .ptxxs-plus + .ptxxs-plus {
+  padding-top: $space-xx-small
+}
+.ptxs, .pvxs, .paxs, .ptxs-plus + .ptxs-plus {
+  padding-top: $space-x-small
+}
+.pts, .pvs, .pas, .pts-plus + .pts-plus {
+  padding-top: $space-small
+}
+.ptm, .pvm, .pam, .ptm-plus + .ptm-plus {
+  padding-top: $space-medium
+}
+.ptl, .pvl, .pal, .ptl-plus + .ptl-plus  {
+  padding-top: $space-large
+}
+.ptxl, .pvxl, .paxl, .ptxl-plus + .ptxl-plus {
+  padding-top: $space-x-large
+}
+.ptxxl, .pvxxl, .paxxl, .ptxxl-plus + .ptxxl-plus {
+  padding-top: $space-xx-large
+}
+.ptxxxl, .pvxxxl, .paxxxl, .ptxxxl-plus + .ptxxxl-plus {
+  padding-top: $space-xxx-large
+}
+.ptxxxxl, .pvxxxxl, .paxxxxl, .ptxxxxl-plus + .ptxxxxl-plus {
+  padding-top: $space-xxxx-large
+}
+
+.pln, .phn, .pan {
+  padding-left: 0
+}
+.plxxxxs, .phxxxxs, .paxxxxs, .plxxxxs-plus + .plxxxxs-plus {
+  padding-left: $space-xxxx-small
+}
+.plxxxs, .phxxxs, .paxxxs, .plxxxs-plus + .plxxxs-plus {
+  padding-left: $space-xxx-small
+}
+.plxxs, .phxxs, .paxxs, .plxxs-plus + .plxxs-plus {
+  padding-left: $space-xx-small
+}
+.plxs, .phxs, .paxs, .plxs-plus + .plxs-plus {
+  padding-left: $space-x-small
+}
+.pls, .phs, .pas, .pls-plus + .pls-plus {
+  padding-left: $space-small
+}
+.plm, .phm, .pam, .plm-plus + .plm-plus {
+  padding-left: $space-medium
+}
+.pll, .phl, .pal, .pll-plus + .pll-plus {
+  padding-left: $space-large
+}
+.plxl, .phxl, .paxl, .plxl-plus + .plxl-plus {
+  padding-left: $space-x-large
+}
+.plxxl, .phxxl, .paxxl, .plxxl-plus + .plxxl-plus {
+  padding-left: $space-xx-large
+}
+.plxxxl, .phxxxl, .paxxxl, .plxxxl-plus + .plxxxl-plus {
+  padding-left: $space-xxx-large
+}
+.plxxxxl, .phxxxxl, .paxxxxl, .plxxxxl-plus + .plxxxxl-plus {
+  padding-left: $space-xxxx-large
+}
+
+.pbn, .pvn, .pan {
+  padding-bottom: 0
+}
+.pbxxxxs, .pvxxxxs, .paxxxxs {
+  padding-bottom: $space-xxxx-small
+}
+.pbxxxs, .pvxxxs, .paxxxs {
+  padding-bottom: $space-xxx-small
+}
+.pbxxs, .pvxxs, .paxxs {
+  padding-bottom: $space-xx-small
+}
+.pbxs, .pvxs, .paxs {
+  padding-bottom: $space-x-small
+}
+.pbs, .pvs, .pas {
+  padding-bottom: $space-small
+}
+.pbm, .pvm, .pam {
+  padding-bottom: $space-medium
+}
+.pbl, .pvl, .pal {
+  padding-bottom: $space-large
+}
+.pbxl, .pvxl, .paxl {
+  padding-bottom: $space-x-large
+}
+.pbxxl, .pvxxl, .paxxl {
+  padding-bottom: $space-xx-large
+}
+.pbxxxl, .pvxxxl, .paxxxl {
+  padding-bottom: $space-xxx-large
+}
+.pbxxxxl, .pvxxxxl, .paxxxxl {
+  padding-bottom: $space-xxxx-large
+}
+
+.prn, .phn, .pan {
+  padding-right: 0
+}
+.prxxxxs, .phxxxxs, .paxxxxs {
+  padding-right: $space-xxxx-small
+}
+.prxxxs, .phxxxs, .paxxxs {
+  padding-right: $space-xxx-small
+}
+.prxxs, .phxxs, .paxxs {
+  padding-right: $space-xx-small
+}
+.prxs, .phxs, .paxs {
+  padding-right: $space-x-small
+}
+.prs, .phs, .pas {
+  padding-right: $space-small
+}
+.prm, .phm, .pam {
+  padding-right: $space-medium
+}
+.prl, .phl, .pal {
+  padding-right: $space-large
+}
+.prxl, .phxl, .paxl {
+  padding-right: $space-x-large
+}
+.prxxl, .phxxl, .paxxl {
+  padding-right: $space-xx-large
+}
+.prxxxl, .phxxxl, .paxxxl {
+  padding-right: $space-xxx-large
+}
+.prxxxxl, .phxxxxl, .paxxxxl {
+  padding-right: $space-xxx-large
+}
+
+.mtn, .mvn, .man {
+  margin-top: 0px
+}
+.mtxxxxs, .mvxxxxs, .maxxxxs, .mtxxxxs-plus + .mtxxxxs-plus {
+  margin-top: $space-xxxx-small
+}
+.mtxxxs, .mvxxxs, .maxxxs, .mtxxxs-plus + .mtxxxs-plus {
+  margin-top: $space-xxx-small
+}
+.mtxxs, .mvxxs, .maxxs, .mtxxs-plus + .mtxxs-plus {
+  margin-top: $space-xx-small
+}
+.mtxs, .mvxs, .maxs, .mtxs-plus + .mtxs-plus {
+  margin-top: $space-x-small
+}
+.mts, .mvs, .mas, .mts-plus + .mts-plus {
+  margin-top: $space-small
+}
+.mtm, .mvm, .mam, .mtm-plus + .mtm-plus {
+  margin-top: $space-medium
+}
+.mtl, .mvl, .mal, .mtl-plus + .mtl-plus {
+  margin-top: $space-large
+}
+.mtxl, .mvxl, .maxl, .mtxl-plus + .mtxl-plus {
+  margin-top: $space-x-large
+}
+.mtxxl, .mvxxl, .maxxl, .mtxxl-plus + .mtxxl-plus {
+  margin-top: $space-xx-large
+}
+.mtxxxl, .mvxxxl, .maxxxl, .mtxxxl-plus + .mtxxxl-plus {
+  margin-top: $space-xxx-large
+}
+.mtxxxxl, .mvxxxxl, .maxxxxl, .mtxxxxl-plus + .mtxxxxl-plus {
+  margin-top: $space-xxxx-large
+}
+
+.mln, .mhn, .man {
+  margin-left: 0
+}
+.mlxxxxs, .mhxxxxs, .maxxxxs, .mlxxxxs-plus + .mlxxxxs-plus {
+  margin-left: $space-xxxx-small
+}
+.mlxxxs, .mhxxxs, .maxxxs, .mlxxxs-plus + .mlxxxs-plus {
+  margin-left: $space-xxx-small
+}
+.mlxxs, .mhxxs, .maxxs, .mlxxs-plus + .mlxxs-plus {
+  margin-left: $space-xx-small
+}
+.mlxs, .mhxs, .maxs, .mlxs-plus + .mlxs-plus {
+  margin-left: $space-x-small
+}
+.mls, .mhs, .mas, .mls-plus + .mls-plus {
+  margin-left: $space-small
+}
+.mlm, .mhm, .mam, .mlm-plus + .mlm-plus {
+  margin-left: $space-medium
+}
+.mll, .mhl, .mal, .mll-plus + .mll-plus {
+  margin-left: $space-large
+}
+.mlxl, .mhxl, .maxl, .mlxl-plus + .mlxl-plus {
+  margin-left: $space-x-large
+}
+.mlxxl, .mhxxl, .maxxl, .mlxxl-plus + .mlxxl-plus {
+  margin-left: $space-xx-large
+}
+.mlxxxl, .mhxxxl, .maxxxl, .mlxxxl-plus + .mlxxxl-plus {
+  margin-left: $space-xxx-large
+}
+.mlxxxxl, .mhxxxxl, .maxxxxl, .mlxxxxl-plus + .mlxxxxl-plus {
+  margin-left: $space-xxxx-large
+}
+
+.mbn, .mvn, .man {
+  margin-bottom: 0
+}
+.mbxxxxs, .mvxxxxs, .maxxxxs {
+  margin-bottom: $space-xxxx-small
+}
+.mbxxxs, .mvxxxs, .maxxxs {
+  margin-bottom: $space-xxx-small
+}
+.mbxxs, .mvxxs, .maxxs {
+  margin-bottom: $space-xx-small
+}
+.mbxs, .mvxs, .maxs {
+  margin-bottom: $space-x-small
+}
+.mbs, .mvs, .mas {
+  margin-bottom: $space-small
+}
+.mbm, .mvm, .mam {
+  margin-bottom: $space-medium
+}
+.mbl, .mvl, .mal {
+  margin-bottom: $space-large
+}
+.mbxl, .mvxl, .maxl {
+  margin-bottom: $space-x-large
+}
+.mbxxl, .mvxxl, .maxxl {
+  margin-bottom: $space-xx-large
+}
+.mbxxxl, .mvxxxl, .maxxxl {
+  margin-bottom: $space-xxx-large
+}
+.mbxxxxl, .mvxxxxl, .maxxxxl {
+  margin-bottom: $space-xxxx-large
+}
+
+.mrn, .mhn, .man {
+  margin-right: 0
+}
+.mrxxxxs, .mhxxxxs, .maxxxxs {
+  margin-right: $space-xxxx-small
+}
+.mrxxxs, .mhxxxs, .maxxxs {
+  margin-right: $space-xxx-small
+}
+.mrxxs, .mhxxs, .maxxs {
+  margin-right: $space-xx-small
+}
+.mrxs, .mhxs, .maxs {
+  margin-right: $space-x-small
+}
+.mrs, .mhs, .mas {
+  margin-right: $space-small
+}
+.mrm, .mhm, .mam {
+  margin-right: $space-medium
+}
+.mrl, .mhl, .mal {
+  margin-right: $space-large
+}
+.mrxl, .mhxl, .maxl {
+  margin-right: $space-x-large
+}
+.mrxxl, .mhxxl, .maxxl {
+  margin-right: $space-xx-large
+}
+.mrxxxl, .mhxxxl, .maxxxl {
+  margin-right: $space-xxx-large
+}
+.mrxxxxl, .mhxxxxl, .maxxxxl {
+  margin-right: $space-xxxx-large
+}
+
+.nmtxxxxs, .nmvxxxxs, .nmaxxxxs {
+  margin-top: -$space-xxxx-small
+}
+.nmtxxxs, .nmvxxxs, .nmaxxxs {
+  margin-top: -$space-xxx-small
+}
+.nmtxxs, .nmvxxs, .nmaxxs {
+  margin-top: -$space-xx-small
+}
+.nmtxs, .nmvxs, .nmaxs {
+  margin-top: -$space-x-small
+}
+.nmts, .nmvs, .nmas {
+  margin-top: -$space-small
+}
+.nmtm, .nmvm, .nmam {
+  margin-top: -$space-medium
+}
+.nmtl, .nmvl, .nmal {
+  margin-top: -$space-large
+}
+.nmtxl, .nmvxl, .nmaxl {
+  margin-top: -$space-x-large
+}
+.nmtxxl, .nmvxxl, .nmaxxl {
+  margin-top: -$space-xx-large
+}
+.nmtxxxl, .nmvxxxl, .nmaxxxl {
+  margin-top: -$space-xxx-large
+}
+.nmtxxxxl, .nmvxxxxl, .nmaxxxxl {
+  margin-top: -$space-xxxx-large
+}
+
+.nmlxxxxs, .nmhxxxxs, .nmaxxxxs {
+  margin-left: -$space-xxxx-small
+}
+.nmlxxxs, .nmhxxxs, .nmaxxxs {
+  margin-left: -$space-xxx-small
+}
+.nmlxxs, .nmhxxs, .nmaxxs {
+  margin-left: -$space-xx-small
+}
+.nmlxs, .nmhxs, .nmaxs {
+  margin-left: -$space-x-small
+}
+.nmls, .nmhs, .nmas {
+  margin-left: -$space-small
+}
+.nmlm, .nmhm, .nmam {
+  margin-left: -$space-medium
+}
+.nmll, .nmhl, .nmal {
+  margin-left: -$space-large
+}
+.nmlxl, .nmhxl, .nmaxl {
+  margin-left: -$space-x-large
+}
+.nmlxxl, .nmhxxl, .nmaxxl {
+  margin-left: -$space-xx-large
+}
+.nmlxxxl, .nmhxxxl, .nmaxxxl {
+  margin-left: -$space-xxx-large
+}
+.nmlxxxxl, .nmhxxxxl, .nmaxxxxl {
+  margin-left: -$space-xxxx-large
+}
+
+.nmbxxxxs, .nmvxxxxs, .nmaxxxxs {
+  margin-bottom: -$space-xxxx-small
+}
+.nmbxxxs, .nmvxxxs, .nmaxxxs {
+  margin-bottom: -$space-xxx-small
+}
+.nmbxxs, .nmvxxs, .nmaxxs {
+  margin-bottom: -$space-xx-small
+}
+.nmbxs, .nmvxs, .nmaxs {
+  margin-bottom: -$space-x-small
+}
+.nmbs, .nmvs, .nmas {
+  margin-bottom: -$space-small
+}
+.nmbm, .nmvm, .nmam {
+  margin-bottom: -$space-medium
+}
+.nmbl, .nmvl, .nmal {
+  margin-bottom: -$space-large
+}
+.nmbxl, .nmvxl, .nmaxl {
+  margin-bottom: -$space-x-large
+}
+.nmbxxl, .nmvxxl, .nmaxxl {
+  margin-bottom: -$space-xx-large
+}
+.nmbxxxl, .nmvxxxl, .nmaxxxl {
+  margin-bottom: -$space-xxx-large
+}
+.nmbxxxxl, .nmvxxxxl, .nmaxxxxl {
+  margin-bottom: -$space-xxxx-large
+}
+
+.nmrxxxxs, .nmhxxxxs, .nmaxxxxs {
+  margin-right: -$space-xxxx-small
+}
+.nmrxxxs, .nmhxxxs, .nmaxxxs {
+  margin-right: -$space-xxx-small
+}
+.nmrxxs, .nmhxxs, .nmaxxs {
+  margin-right: -$space-xx-small
+}
+.nmrxs, .nmhxs, .nmaxs {
+  margin-right: -$space-x-small
+}
+.nmrs, .nmhs, .nmas {
+  margin-right: -$space-small
+}
+.nmrm, .nmhm, .nmam {
+  margin-right: -$space-medium
+}
+.nmrl, .nmhl, .nmal {
+  margin-right: -$space-large
+}
+.nmrxl, .nmhxl, .nmaxl {
+  margin-right: -$space-x-large
+}
+.nmrxxl, .nmhxxl, .nmaxxl {
+  margin-right: -$space-xx-large
+}
+.nmrxxxl, .nmhxxxl, .nmaxxxl {
+  margin-right: -$space-xxx-large
+}
+.nmrxxxxl, .nmhxxxxl, .nmaxxxxl {
+  margin-right: -$space-xxxx-large
+}

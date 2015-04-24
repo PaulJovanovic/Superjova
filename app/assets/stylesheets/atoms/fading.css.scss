@@ -1,0 +1,35 @@
+@mixin fade($decimal, $integer) {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$integer)";
+  filter: alpha(opacity=$integer);
+  -moz-opacity: $decimal;
+  -khtml-opacity: $decimal;
+  opacity: $decimal;
+}
+
+.fade-n, .fade-n-hover:hover, .active .fade-n-active, .active .fade-n-active:hover {
+  @include fade(1, 100);
+}
+
+.fade-xs, .fade-xs-hover:hover, .active .fade-xs-active, .active .fade-xs-active:hover {
+  @include fade($fade-decimal-xs, $fade-integer-xs);
+}
+
+.fade-s, .fade-s-hover:hover, .active .fade-s-active, .active .fade-s-active:hover {
+  @include fade($fade-decimal-s, $fade-integer-s);
+}
+
+.fade-m, .fade-m-hover:hover, .active .fade-m-active, .active .fade-m-active:hover {
+  @include fade($fade-decimal-m, $fade-integer-m);
+}
+
+.fade-l, .fade-l-hover:hover, .active .fade-l-active, .active .fade-l-active:hover {
+  @include fade($fade-decimal-l, $fade-integer-l);
+}
+
+.fade-xl, .fade-xl-hover:hover, .active .fade-xl-active, .active .fade-xl-active:hover {
+  @include fade($fade-decimal-xl, $fade-integer-xl);
+}
+
+.fade-a, .fade-a-hover:hover, .active .fade-a-active, .active .fade-a-active:hover {
+  @include fade(0, 0);
+}

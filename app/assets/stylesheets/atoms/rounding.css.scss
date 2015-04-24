@@ -1,0 +1,146 @@
+.brtln, .brtn, .brln, .bran {
+  -webkit-border-top-left-radius: 0px;
+  -moz-border-radius-topleft: 0px;
+  border-top-left-radius: 0px;
+}
+.brtrn, .brtn, .brrn, .bran {
+  -webkit-border-top-right-radius: 0px;
+  -moz-border-radius-topright: 0px;
+  border-top-right-radius: 0px;
+}
+.brbln, .brbn, .brln, .bran {
+  -webkit-border-bottom-left-radius: 0px;
+  -moz-border-radius-bottomleft: 0px;
+  border-bottom-left-radius: 0px;
+}
+.brbrn, .brbn, .brrn, .bran {
+  -webkit-border-bottom-right-radius: 0px;
+  -moz-border-radius-bottomright: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.brtlxxs, .brtxxs, .brlxxs, .braxxs {
+  -webkit-border-top-left-radius: $border-radius-xxs;
+  -moz-border-radius-topleft: $border-radius-xxs;
+  border-top-left-radius: $border-radius-xxs;
+}
+.brtrxxs, .brtxxs, .brrxxs, .braxxs {
+  -webkit-border-top-right-radius: $border-radius-xxs;
+  -moz-border-radius-topright: $border-radius-xxs;
+  border-top-right-radius: $border-radius-xxs;
+}
+.brblxxs, .brbxxs, .brlxxs, .braxxs {
+  -webkit-border-bottom-left-radius: $border-radius-xxs;
+  -moz-border-radius-bottomleft: $border-radius-xxs;
+  border-bottom-left-radius: $border-radius-xxs;
+}
+.brbrxxs, .brbxxs, .brrxxs, .braxxs {
+  -webkit-border-bottom-right-radius: $border-radius-xxs;
+  -moz-border-radius-bottomright: $border-radius-xxs;
+  border-bottom-right-radius: $border-radius-xxs;
+}
+
+.brtlxs, .brtxs, .brlxs, .braxs {
+  -webkit-border-top-left-radius: $border-radius-xs;
+  -moz-border-radius-topleft: $border-radius-xs;
+  border-top-left-radius: $border-radius-xs;
+}
+.brtrxs, .brtxs, .brrxs, .braxs {
+  -webkit-border-top-right-radius: $border-radius-xs;
+  -moz-border-radius-topright: $border-radius-xs;
+  border-top-right-radius: $border-radius-xs;
+}
+.brblxs, .brbxs, .brlxs, .braxs {
+  -webkit-border-bottom-left-radius: $border-radius-xs;
+  -moz-border-radius-bottomleft: $border-radius-xs;
+  border-bottom-left-radius: $border-radius-xs;
+}
+.brbrxs, .brbxs, .brrxs, .braxs {
+  -webkit-border-bottom-right-radius: $border-radius-xs;
+  -moz-border-radius-bottomright: $border-radius-xs;
+  border-bottom-right-radius: $border-radius-xs;
+}
+
+.brtls, .brts, .brls, .bras {
+  -webkit-border-top-left-radius: $border-radius-s;
+  -moz-border-radius-topleft: $border-radius-s;
+  border-top-left-radius: $border-radius-s;
+}
+.brtrs, .brts, .brrs, .bras {
+  -webkit-border-top-right-radius: $border-radius-s;
+  -moz-border-radius-topright: $border-radius-s;
+  border-top-right-radius: $border-radius-s;
+}
+.brbls, .brbs, .brls, .bras {
+  -webkit-border-bottom-left-radius: $border-radius-s;
+  -moz-border-radius-bottomleft: $border-radius-s;
+  border-bottom-left-radius: $border-radius-s;
+}
+.brbrs, .brbs, .brrs, .bras {
+  -webkit-border-bottom-right-radius: $border-radius-s;
+  -moz-border-radius-bottomright: $border-radius-s;
+  border-bottom-right-radius: $border-radius-s;
+}
+
+.brtlm, .brtm, .brlm, .bram {
+  -webkit-border-top-left-radius: $border-radius-m;
+  -moz-border-radius-topleft: $border-radius-m;
+  border-top-left-radius: $border-radius-m;
+}
+.brtrm, .brtm, .brrm, .bram {
+  -webkit-border-top-right-radius: $border-radius-m;
+  -moz-border-radius-topright: $border-radius-m;
+  border-top-right-radius: $border-radius-m;
+}
+.brblm, .brbm, .brlm, .bram {
+  -webkit-border-bottom-left-radius: $border-radius-m;
+  -moz-border-radius-bottomleft: $border-radius-m;
+  border-bottom-left-radius: $border-radius-m;
+}
+.brbrm, .brbm, .brrm, .bram {
+  -webkit-border-bottom-right-radius: $border-radius-m;
+  -moz-border-radius-bottomright: $border-radius-m;
+  border-bottom-right-radius: $border-radius-m;
+}
+
+.brtll, .brtl, .brll, .bral {
+  -webkit-border-top-left-radius: $border-radius-l;
+  -moz-border-radius-topleft: $border-radius-l;
+  border-top-left-radius: $border-radius-l;
+}
+.brtrl, .brtl, .brrl, .bral {
+  -webkit-border-top-right-radius: $border-radius-l;
+  -moz-border-radius-topright: $border-radius-l;
+  border-top-right-radius: $border-radius-l;
+}
+.brbll, .brbl, .brll, .bral {
+  -webkit-border-bottom-left-radius: $border-radius-l;
+  -moz-border-radius-bottomleft: $border-radius-l;
+  border-bottom-left-radius: $border-radius-l;
+}
+.brbrl, .brbl, .brrl, .bral {
+  -webkit-border-bottom-right-radius: $border-radius-l;
+  -moz-border-radius-bottomright: $border-radius-l;
+  border-bottom-right-radius: $border-radius-l;
+}
+
+.brtlxl, .brtxl, .brlxl, .braxl {
+  -webkit-border-top-left-radius: $border-radius-xl;
+  -moz-border-radius-topleft: $border-radius-xl;
+  border-top-left-radius: $border-radius-xl;
+}
+.brtrxl, .brtxl, .brrxl, .braxl {
+  -webkit-border-top-right-radius: $border-radius-xl;
+  -moz-border-radius-topright: $border-radius-xl;
+  border-top-right-radius: $border-radius-xl;
+}
+.brblxl, .brbxl, .brlxl, .braxl {
+  -webkit-border-bottom-left-radius: $border-radius-xl;
+  -moz-border-radius-bottomleft: $border-radius-xl;
+  border-bottom-left-radius: $border-radius-xl;
+}
+.brbrxl, .brbxl, .brrxl, .braxl {
+  -webkit-border-bottom-right-radius: $border-radius-xl;
+  -moz-border-radius-bottomright: $border-radius-xl;
+  border-bottom-right-radius: $border-radius-xl;
+}

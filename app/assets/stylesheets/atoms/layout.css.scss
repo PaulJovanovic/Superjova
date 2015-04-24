@@ -1,0 +1,252 @@
+.static {
+  position: static;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.fixed {
+  position: fixed;
+  z-index: 10;
+}
+
+.fixed, .relative, .absolute {
+  &.top, &.fill {
+    top: 0;
+  }
+
+  &.left, &.fill {
+    left: 0;
+  }
+
+  &.right, &.fill {
+    right: 0;
+  }
+
+  &.bottom, &.fill {
+    bottom: 0;
+  }
+
+  &.n-top {
+    bottom: auto;
+    top: 100%;
+  }
+
+  &.n-left {
+    left: 100%;
+    right: auto;
+  }
+
+  &.n-right {
+    left: auto;
+    right: 100%;
+  }
+
+  &.n-bottom {
+    bottom: 100%;
+    top: auto;
+  }
+}
+
+.full-width, .full {
+  width: 100%;
+}
+
+.full-height, .full {
+  height: 100%;
+}
+
+.icon-fix {
+  position: relative;
+  top: 3px;
+}
+
+.circle {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.soft-hide {
+  display: none;
+}
+
+table {
+  &.t-fixed {
+    table-layout: fixed;
+  }
+}
+
+.hover-action {
+  .hover-action-show {
+    display: none;
+  }
+
+  &:hover {
+    .hover-action-show {
+      display: block;
+    }
+  }
+}
+
+.zxs {
+  z-index: 0;
+}
+
+.zs {
+  z-index: 1;
+}
+
+.zm {
+  z-index: 2;
+}
+
+.zl {
+  z-index: 3;
+}
+
+.zxl {
+  z-index: 4;
+}
+
+.z-modal {
+  z-index: 5;
+}
+
+.no-outline {
+  outline: none;
+}
+
+.overflow-x {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.no-overflow {
+  overflow: hidden;
+}
+
+.no-select {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.bg-repeat-x {
+  background-repeat: repeat-x;
+}
+
+.bg-repeat-y {
+  background-repeat: repeat-y;
+}
+
+.bg-repeat-n {
+  background-repeat: no-repeat;
+}
+
+.bg-full-width {
+  background-size: 100%;
+}
+
+.bg-cover {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-top {
+  background-position: center top;
+}
+
+.bg-contain {
+  background-size: contain;
+}
+
+.square {
+  padding-bottom: 100%;
+}
+
+.hide-active {
+  display: block;
+}
+
+.show-active {
+  display: none;
+}
+
+.active {
+  .hide-active {
+    display: none;
+  }
+
+  .show-active {
+    display: block;
+  }
+}
+
+.ribbon {
+  width: auto;
+
+  &:before {
+    border-color: $shade12 transparent transparent transparent;
+    position: absolute;
+    display: block;
+    border-style: solid;
+    bottom: -10px;
+    content: '';
+    left: 0px;
+    border-width: 10px 0 0 7px;
+  }
+
+  &:after {
+    border-color: $shade12 transparent transparent transparent;
+    position: absolute;
+    display: block;
+    border-style: solid;
+    bottom: -10px;
+    content: '';
+    right: 0px;
+    border-width: 10px 7px 0 0;
+  }
+}
+
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.transform-s {
+  transition: all 0.4s ease-in-out;
+}
+
+.select-reset {
+  box-shadow: none;
+  background-image: none;
+  text-indent: 0.01px;
+  text-overflow: '';
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+
+  &:focus {
+    outline: none;
+  }
+}

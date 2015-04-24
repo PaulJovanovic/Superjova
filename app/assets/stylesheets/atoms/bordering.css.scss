@@ -1,0 +1,140 @@
+// n = negagative
+// bw = border-width
+// a,t,r,b,l,h,v = all,top,right,bottom,left,horizontal,vertical
+// s,m,l,n = small($border-small),medium($border-medium),large($border-large),none(0px)
+
+.bwtn, .bwvn, .bwan, .active .bwtn-active, .active .bwvn-active, .active .bwan-active {
+  border-top-width: 0px;
+}
+.bwts, .bwvs, .bwas, .active .bwts-active, .active .bwvs-active, .active .bwas-active, .bwts-plus + .bwts-plus {
+  border-top-width: $border-small;
+}
+.bwtm, .bwvm, .bwam, .active .bwtm-active, .active .bwvm-active, .active .bwam-active, .bwtm-plus + .bwtm-plus {
+  border-top-width: $border-medium;
+}
+.bwtl, .bwvl, .bwal, .active .bwtl-active, .active .bwvl-active, .active .bwal-active, .bwtl-plus + .bwtl-plus {
+  border-top-width: $border-large;
+}
+
+.bwln, .bwhn, .bwan, .active .bwln-active, .active .bwhn-active, .active .bwan-.active {
+  border-left-width: 0px;
+}
+.bwls, .bwhs, .bwas, .active .bwls-active, .active .bwhs-active, .active .bwas-active, .bwls-plus + .bwls-plus {
+  border-left-width: $border-small;
+}
+.bwlm, .bwhm, .bwam, .active .bwlm-active, .active .bwhm-active, .active .bwam-active, .bwlm-plus + .bwlm-plus {
+  border-left-width: $border-medium;
+}
+.bwll, .bwhl, .bwal, .active .bwll-active, .active .bwhl-active, .active .bwal-active, .bwll-plus + .bwll-plus {
+  border-left-width: $border-large;
+}
+
+.bwbn, .bwvn, .bwan, .active .bwbn-active, .active .bwvn-active, .active .bwan-active {
+  border-bottom-width: 0px;
+}
+.bwbs, .bwvs, .bwas, .active .bwbs-active, .active .bwvs-active, .active .bwas-active {
+  border-bottom-width: $border-small;
+}
+.bwbm, .bwvm, .bwam, .active .bwbm-active, .active .bwvm-active, .active .bwam-active {
+  border-bottom-width: $border-medium;
+}
+.bwbl, .bwvl, .bwal, .active .bwbl-active, .active .bwvl-active, .active .bwal-active {
+  border-bottom-width: $border-large;
+}
+
+.bwrn, .bwhn, .bwan, .active .bwrn-active, .active .bwhn-active, .active .bwan-active {
+  border-right-width: 0px;
+}
+.bwrs, .bwhs, .bwas, .active .bwrs-active, .active .bwhs-active, .active .bwas-active {
+  border-right-width: $border-small;
+}
+.bwrm, .bwhm, .bwam, .active .bwrm-active, .active .bwhm-active, .active .bwam-active {
+  border-right-width: $border-medium;
+}
+.bwrl, .bwhl, .bwal, .active .bwrl-active, .active .bwhl-active, .active .bwal-active {
+  border-right-width: $border-large;
+}
+
+.bss {
+  border-style: solid;
+}
+
+.bsd {
+  border-style: dashed;
+}
+
+.bc-n, .bc-n-hover:hover, .active .bc-n-active, .active .bc-n-active:hover {
+  border-color: transparent;
+}
+
+.bc-1, .bc-1-hover:hover, .active .bc-1-active, .active .bc-1-active:hover {
+  border-color: $shade1;
+}
+
+.bc-2, .bc-2-hover:hover, .active .bc-2-active, .active .bc-2-active:hover {
+  border-color: $shade2;
+}
+
+.bc-3, .bc-3-hover:hover, .active .bc-3-active, .active .bc-3-active:hover {
+  border-color: $shade3;
+}
+
+.bc-4, .bc-4-hover:hover, .active .bc-4-active, .active .bc-4-active:hover {
+  border-color: $shade4;
+}
+
+.bc-5, .bc-5-hover:hover, .active .bc-5-active, .active .bc-5-active:hover {
+  border-color: $shade5;
+}
+
+.bc-6, .bc-6-hover:hover, .active .bc-6-active, .active .bc-6-active:hover {
+  border-color: $shade6;
+}
+
+.bc-7, .bc-7-hover:hover, .active .bc-7-active, .active .bc-7-active:hover {
+  border-color: $shade7;
+}
+
+.bc-8, .bc-8-hover:hover, .active .bc-8-active, .active .bc-8-active:hover {
+  border-color: $shade8;
+}
+
+.bc-9, .bc-9-hover:hover, .active .bc-9-active, .active .bc-9-active:hover {
+  border-color: $shade9;
+}
+
+.bc-10, .bc-10-hover:hover, .active .bc-10-active, .active .bc-10-active:hover {
+  border-color: $shade10;
+}
+
+.bc-11, .bc-11-hover:hover, .active .bc-11-active, .active .bc-11-active:hover {
+  border-color: $shade11;
+}
+
+.bc-12, .bc-12-hover:hover, .active .bc-12-active, .active .bc-12-active:hover {
+  border-color: $shade12;
+}
+
+.bc-13, .bc-13-hover:hover, .active .bc-13-active, .active .bc-13-active:hover {
+  border-color: $shade13;
+}
+
+.bc-14, .bc-14-hover:hover, .active .bc-14-active, .active .bc-14-active:hover {
+  border-color: $shade14;
+}
+
+.bc-15, .bc-15-hover:hover, .active .bc-15-active {
+  border-color: $shade15;
+}
+
+.bc-red, .bc-red-hover:hover, .active .bc-red-active {
+  border-color: $red;
+}
+
+.bc-green, .bc-green-hover:hover, .active .bc-green-active {
+  border-color: $green;
+}
+
+.bc-blue, .bc-blue-hover:hover, .active .bc-blue-active {
+  border-color: $blue;
+}

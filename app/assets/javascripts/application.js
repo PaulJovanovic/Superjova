@@ -12,6 +12,4 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require jquery.boxshadow.min
-//= require image_transmission
 //= require_tree .

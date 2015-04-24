@@ -1,0 +1,131 @@
+.fsxxxs {
+  font-size: $font-size-xxxs;
+}
+
+.fsxxs {
+  font-size: $font-size-xxs;
+}
+
+.fsxs {
+  font-size: $font-size-xs;
+}
+
+.fss {
+  font-size: $font-size-s;
+}
+
+.fsm {
+  font-size: $font-size-m;
+}
+
+.fsl {
+  font-size: $font-size-l;
+}
+
+.fsxl {
+  font-size: $font-size-xl;
+}
+
+.fsxxl {
+  font-size: $font-size-xxl;
+}
+
+.fsxxxl {
+  font-size: $font-size-xxxl;
+}
+
+@media (max-width: 680px) {
+  .fsxxxs {
+    font-size: .8 * $font-size-xxxs;
+  }
+
+  .fsxxs {
+    font-size: .8 * $font-size-xxs;
+  }
+
+  .fsxs {
+    font-size: .8 * $font-size-xs;
+  }
+
+  .fss {
+    font-size: .8 * $font-size-s;
+  }
+
+  .fsm {
+    font-size: .8 * $font-size-m;
+  }
+
+  .fsl {
+    font-size: .8 * $font-size-l;
+  }
+
+  .fsxl {
+    font-size: .8 * $font-size-xl;
+  }
+
+  .fsxxl {
+    font-size: .8 * $font-size-xxl;
+  }
+
+  .fsxxxl {
+    font-size: .8 * $font-size-xxxl;
+  }
+}
+
+//font weights
+
+.fws, .active .fws-active  {
+  font-weight: $font-weight-s;
+}
+
+.fwm, .active .fwm-active {
+  font-weight: $font-weight-m;
+}
+
+.fwl, .active .fwl-active {
+  font-weight: $font-weight-l;
+}
+
+.italicize {
+  font-style: italic;
+}
+
+.lsxs {
+  letter-spacing: $letter-spacing-xs;
+}
+
+.lss {
+  letter-spacing: $letter-spacing-s;
+}
+
+.lsm {
+  letter-spacing: $letter-spacing-m;
+}
+
+.lsl {
+  letter-spacing: $letter-spacing-l;
+}
+
+.lsxl {
+  letter-spacing: $letter-spacing-xl;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.upcase {
+  text-transform: uppercase;
+}
+
+.drtl {
+  direction: rtl;
+}
+
+.dltl {
+  direction: ltl;
+}
+
+.ff-rw {
+  font-family: 'Raleway', sans-serif;
+}

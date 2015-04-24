@@ -5,25 +5,55 @@
   <%= stylesheet_link_tag "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+  <meta name='viewport' content='width=device-width, minimum-scale=1.0, maximum-scale=1.0'>
 </head>
 <body>
-	<div id="container">
-	    <%= render :partial => "shared/navbar" %>
-	    <div id="image-transmission">
-		    <div id="transmission-inner">
-		      <div class="pam">
-		      	<img id="image-transmission-image"/>
-		      </div>
-		    </div>
-		  </div>
-		  <div id="transmission-end">END TRANSMISSION</div>
-	    <div id="content" class="shadow">
-	    	<div class="pal">
-	   			<%= yield %>
-	   			<%= render :partial => "shared/side" %>
-				<br class="clear"/>
-	   		</div>
-	   	</div>
-	</div>
+  <nav class="relative bg-15 bss bwbs bc-12 zxl">
+    <div class="container phs">
+      <div class="pvxxxs clearfix">
+        <div class="row nmhs">
+          <div class="col-sm-6">
+            <%= image_tag "logo.png", class: "dvm" %>
+          </div>
+          <div class="col-sm-6">
+            <ul class="man pull-right" style="list-style-type: none;">
+              <li class="pls-plus dvm lhm pull-left">
+                about
+              </li>
+              <li class="pls-plus dvm lhm pull-left">
+                clients
+              </li>
+              <li class="pls-plus dvm lhm pull-left">
+                contact
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="pbxxxxl">
+    <%= yield %>
+  </div>
+  <div class="bg-15 bss bwts bc-12">
+    <div class="container phs">
+      <div class="pvxxxxl">
+        <div class="row nmhxxs">
+          <div class="col-xs-6 phxs">
+            <%= image_tag "logo.png", class: "img-responsive" %>
+            <div class="mtxs c-8">
+              &copy; 2015 SUPERJOVA<br/>
+              ALL RIGHTS RESERVED
+            </div>
+          </div>
+          <div class="col-xs-6 phxs mtl fss">
+            <div class="">about</div>
+            <div class="">clients</div>
+            <div class="">contact</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
