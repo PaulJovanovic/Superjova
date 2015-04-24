@@ -8,25 +8,28 @@
   <meta name='viewport' content='width=device-width, minimum-scale=1.0, maximum-scale=1.0'>
 </head>
 <body>
-  <nav class="relative bg-15 bss bwbs bc-12 zxl">
-    <div class="container phs">
-      <div class="pvxxxs clearfix">
-        <div class="row nmhs">
-          <div class="col-sm-6">
-            <%= image_tag "logo.png", class: "dvm" %>
-          </div>
-          <div class="col-sm-6">
-            <ul class="man pull-right" style="list-style-type: none;">
-              <li class="pls-plus dvm lhm pull-left">
-                about
-              </li>
-              <li class="pls-plus dvm lhm pull-left">
-                clients
-              </li>
-              <li class="pls-plus dvm lhm pull-left">
-                contact
-              </li>
-            </ul>
+  <div class="fixed top left right js-navigation-fixed"></div>
+  <nav id="main-navigation" class="js-navigation-fixable" data-fixable=true>
+    <div class="relative bg-15 bss bwbs bc-12 js-navigation-fixable-content">
+      <div class="container phs">
+        <div class="pvxxxs clearfix">
+          <div class="row nmhs">
+            <div class="col-sm-6">
+              <%= image_tag "logo.png", class: "dvm" %>
+            </div>
+            <div class="col-sm-6">
+              <ul class="man pull-right" style="list-style-type: none;">
+                <li class="pls-plus dvm lhm pull-left">
+                  about
+                </li>
+                <li class="pls-plus dvm lhm pull-left">
+                  clients
+                </li>
+                <li class="pls-plus dvm lhm pull-left">
+                  contact
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
