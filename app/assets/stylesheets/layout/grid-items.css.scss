@@ -1,0 +1,37 @@
+@media (max-width: $screen-xs-max) {
+  .grid-item {
+    display: table;
+    width: 100%;
+  }
+
+  .grid-item-row {
+    display: table-row;
+  }
+
+  .grid-item-col {
+    display: table-cell;
+    float: none;
+    vertical-align: middle;
+  }
+
+  .grid-item-content {
+    font-size: 24px;
+  }
+
+  .grid-item-label {
+    background-color: none;
+    color: $shade4;
+    text-align: left;
+  }
+}
+
+@media (min-width: $screen-sm-min) {
+  .grid-item-content {
+    font-size: 72px;
+  }
+
+  .grid-item-label {
+    background-color: $shade4;
+    color: $shade15;
+  }
+}
