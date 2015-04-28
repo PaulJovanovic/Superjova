@@ -23,6 +23,7 @@ gem 'newrelic_rpm'
 gem 'aws-sdk'
 gem 'amazon-ecs'
 gem 'friendly_id'
+gem 'mail_form'
 
 gem "rack-cors", require: "rack/cors"
 
