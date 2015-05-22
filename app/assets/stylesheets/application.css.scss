@@ -31,32 +31,3 @@ html
 		}
 	}
 }
-
-@font-face {
-  font-family: 'icomoon';
-  src:url('http://s3.amazonaws.com/popjova/fonts/icomoon.eot?lquikg');
-  src:url('http://s3.amazonaws.com/popjova/fonts/icomoon.eot?#iefixlquikg') format('embedded-opentype'),
-    url('http://s3.amazonaws.com/popjova/fonts/icomoon.woff?lquikg') format('woff'),
-    url('http://s3.amazonaws.com/popjova/fonts/icomoon.ttf?lquikg') format('truetype'),
-    url('http://s3.amazonaws.com/popjova/fonts/icomoon.svg?lquikg#icomoon') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-[class^="icon-"], [class*=" icon-"] {
-  font-family: 'icomoon';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.icon-popjova:before {
-  content: "\e600";
-}
